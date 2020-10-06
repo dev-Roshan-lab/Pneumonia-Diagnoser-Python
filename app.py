@@ -15,7 +15,7 @@ def extract_color_histogram(image, bins=(8, 8, 8)):
     return hist.flatten()
 
 #load fireabse realtime databse link
-firebase = firebase.FirebaseApplication("https://server-65459.firebaseio.com/", None)
+firebase = firebase.FirebaseApplication("https://_firebase app name_.firebaseio.com/", None)
 
 app = Flask(__name__)
 @app.route('/home/<pos>')
